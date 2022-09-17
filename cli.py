@@ -13,7 +13,7 @@ def vectorMagnitude():
     y = float(inputLoop('Enter your y value: '))
     z = float(inputLoop('Enter your z value: '))
     vm = math.sqrt((x**2)+(y**2)+(z**2))
-    print('Unit Vector is: ' + str(vm))
+    print('Vector Magnitude is: ' + str(vm))
     return {'x': x, 'y': y,'z': z, 'vm': vm}
 
 def unitVector():
